@@ -23,12 +23,19 @@
   box-sizing: border-box;
   padding: 16px;
   white-space: pre-wrap;
-  font-family: "Fira Mono", "DejaVu Sans Mono", Menlo, Consolas,
-    "Liberation Mono", Monaco, "Lucida Console", monospace;
+  font-family: 'Fira Mono', 'DejaVu Sans Mono', Menlo, Consolas,
+    'Liberation Mono', Monaco, 'Lucida Console', monospace;
   background-color: rgb(255, 205, 202);
 }
 
 .preview :global(.sp-error-message) {
   color: #811e18;
   font-size: 0.9em;
+}
+
+.preview :global(.sp-preview-actions) {
+  position: fixed;
+  bottom: 8px;
+  right: 8px;
+  z-index: 0;
 }

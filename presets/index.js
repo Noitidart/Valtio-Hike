@@ -23,6 +23,14 @@ export function getPreset(name) {
         },
       };
     }
+    case "valtio-hike": {
+      return {
+        customSetup: {
+          environment: "create-react-app",
+          files: getFiles(name)
+        }
+      }
+    }
     default:
       return {
         template: "react",

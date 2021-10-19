@@ -37,7 +37,7 @@ function InnerPreview({ style, ...props }) {
     <MiniBrowser style={style} loadUrl={link} {...props}>
       <SandpackPreview
         showNavigator={false}
-        showRefreshButton={false}
+        showRefreshButton={true}
         showOpenInCodeSandbox={false}
         customStyle={{
           minHeight: "unset",
