@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "dev": "next-remote-watch ./lessons",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export"
+  },
+  "dependencies": {
+    "@code-hike/mini-browser": "0.3.0--canary.67.b6f3cda.0",
+    "@code-hike/mini-editor": "0.3.0--canary.67.b6f3cda.0",
+    "@codesandbox/sandpack-react": "^0.0.6",
+    "glob": "^7.1.7",
+    "gray-matter": "^4.0.3",
+    "next": "^11.0.0",
+    "next-mdx-remote": "^3",
+    "next-remote-watch": "^1.0.0",
+    "prism-svelte": "^0.4.7",
+    "prism-themes": "^1.7.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
